@@ -1,0 +1,333 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  border-top: solid;
+  border-color: #335c67;
+  background-color: white;
+}
+
+.divheader1 {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divlogo {
+  width: 120px;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+}
+
+nav .divnav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .divnav1 a {
+  text-decoration: none;
+  margin: 25px 15px;
+  color: black;
+  padding-bottom: 3px;
+}
+
+nav .divnav1 a:hover {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #335c67;
+}
+
+nav .divnav2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .divnav2 a {
+  text-decoration: none;
+  margin: 25px 15px;
+  color: black;
+  padding-bottom: 3px;
+}
+
+nav .divnav2 a:hover {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #335c67;
+}
+
+.bkimg {
+  background-image: url(../img/backimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bkimg .divimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25vh;
+}
+
+.bkimg .divimg h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.bkimg .divimg p {
+  margin: 40px 0;
+}
+
+.bkimg .divimg button {
+  width: 180px;
+  padding: 12px 25px;
+  background-color: #335c67;
+  color: white;
+  border: #335c67;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.bkimg .divimg button:hover {
+  font-size: 1.15rem;
+  width: 185px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.sec2 {
+  width: 100%;
+  height: 60vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sec2 .divsec2 {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sec2 .divsec2 .divsec3_1 {
+  font-size: 1.5rem;
+}
+
+.sec2 .divsec2 .divsec3_1 h2 {
+  margin: 0;
+}
+
+.sec2 .divsec2 .divsec3_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sec2 .divsec2 .divsec3_2 .card {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.sec2 .divsec2 .divsec3_2 .card .parra {
+  font-weight: bolder;
+}
+
+.experts {
+  width: 100%;
+  background-color: #070b30;
+  overflow: hidden;
+}
+
+.divexp {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  padding: 50px;
+}
+
+.divexp .divexp2 {
+  text-align: center;
+}
+
+.divexp .divexp2 .p1 {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.divexp .divexp2 .p2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.divexp .divexp2 .p3 {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.divexp .expdes {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+.divexp .expdes .expdes1 img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.divexp .expdes .expdes2 {
+  margin-left: 5%;
+  width: 50%;
+}
+
+.divexp .expdes .expdes2 .descrip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.divexp .expdes .expdes2 .descrip h3 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  margin-right: 25px;
+}
+
+.divexp .expdes .expdes2 .descrip p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.divexp .expdes .expdes2 p {
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #888;
+  margin: 50px 0 65px 0;
+}
+
+.divexp .expdes .expdes2 a {
+  color: #dddddd;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  border-bottom: solid;
+  border-width: 2px;
+  padding-bottom: 10px;
+}
+
+.divexp .expdes .expdes2 a:hover {
+  font-size: 1.4rem;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+/*# sourceMappingURL=main.css.map */
